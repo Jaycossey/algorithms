@@ -31,7 +31,6 @@ const fizzBuzz = (num) => {
             result.push(i);
         }
     }
-    console.log(result);
     // returns result array
     return result;
 }
