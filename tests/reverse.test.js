@@ -1,7 +1,8 @@
-// const reverse = require('../reverse/index');
-// const sum = require('../sum/sum');
-// const fizzBuzz = require('../fizzBuzz/fizzBuzz');
+const reverse = require('../reverse/index');
+const sum = require('../sum/sum');
+const fizzBuzz = require('../fizzBuzz/fizzBuzz');
 const palindrome = require('../palindrome/palindrome');
+const countVowels = require('../countVowels/countVowels');
 
 // // Reverse String
 // test(`Reverses string`, () => {
@@ -17,20 +18,30 @@ const palindrome = require('../palindrome/palindrome');
 //         .toBe(3);
 // })
 
-// // FizzBuzz
+// FizzBuzz
 // test(`FizzBuzz algorithm, returns fizz on x3, buzz on x5 and fizzBuzz if both`, () => {
 //     expect(fizzBuzz(15))
 //         .toStrictEqual([1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzBuzz"]);
 // })
 
 // Palindrome
-test(`If palindrome, returns true, else returns false`, () => {
-    expect(palindrome("level"))
-        .toBe(true);
-    expect(palindrome("RaCEcar"))
-        .toBe(true);
-    expect(palindrome("RaC Ec ar"))
-        .toBe(true);
-    expect(palindrome("hello world"))
-        .toBe(false);
+// test(`If palindrome, returns true, else returns false`, () => {
+//     expect(palindrome("level"))
+//         .toBe(true);
+//     expect(palindrome("RaCEcar"))
+//         .toBe(true);
+//     expect(palindrome("RaC Ec ar"))
+//         .toBe(true);
+//     expect(palindrome("hello world"))
+//         .toBe(false);
+// })
+
+// Count Vowels
+test(`Count total vowels in a string, returns int`, () => {
+    expect(countVowels("The quick brown fox jumps over the lazy dog"))
+        .toBe(11);
+    expect(countVowels("Hello World"))
+        .toBe(3);
+    expect(countVowels("Why?"))
+        .toBe(0);
 })

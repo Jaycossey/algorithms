@@ -15,7 +15,9 @@
 ## Description
 
 <a name="Description"></a>
-> This project was created in order to strengthen and practice common algorithms based on text prompts of those algorithms. Using this article from freeCodeCamp, I have found 10 of the most common algorithms that are used within software development and have taken their written prompts to replicate the results desired. https://www.freecodecamp.org/news/top-10-javascript-algorithms-for-coding-challenges/
+> This project was created in order to strengthen and practice common algorithms based on text prompts of those algorithms. Using this article from freeCodeCamp, I have found 10 JavaScript algorithms that are used within software development and have taken their written prompts to replicate the results desired, as well as taking examples from Cracking the Coding Interview (Gayle Laakmann McDowell) in order to practice and learn some of the more difficult A&DS.
+
+ https://www.freecodecamp.org/news/top-10-javascript-algorithms-for-coding-challenges/ 
 
 ## Tech Stack
 
@@ -49,7 +51,7 @@
 ## Other Information
 
 <a name="Info"></a>
-> N/A
+> Work In Progress, looking to gain practice with JavaScript then revisit the algorithms in vanilla C to work at a lower level with the data.
 
 ### Usage
 Clone this repository and run: npm i && npm run test
